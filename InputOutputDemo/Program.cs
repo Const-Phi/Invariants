@@ -11,8 +11,8 @@ namespace InputOutputDemo
             Console.Write("number = ");
             string userInput = Console.ReadLine();
             int number;
-            bool isInt = int.TryParse(userInput, out number);
-            if (!isInt)
+            bool isValidValue = int.TryParse(userInput, out number);
+            if (!isValidValue)
             {
                 Console.WriteLine("Error!");
                 return;
