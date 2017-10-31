@@ -10,7 +10,7 @@ namespace LoopsDemo
 
             #region Dummy for-loop demo
 
-            // let a sum is 1 + 2 + 3 + ... + n where n = 10;
+            // let a sum is 1 + 2 + 3 + ... + n where n = 100;
             int n = 100;
             int sum = 0;
             for (int element = 1; element <= n; element = element + 1)
@@ -18,14 +18,21 @@ namespace LoopsDemo
 
             #endregion
 
+            sum = 0;
+            int current = n;
+            for (; current >= 1; current--)
+                sum += current;
+
             #region Increment demo
 
             // let we have i = 1, j
             int i = 1;
-            int j = i++;
+            int j = i++; // j = i; i = i + 1;
 
             i = 1;
-            j = ++i;
+            j = ++i;     // i = i + 1; j = i;
+
+            j = (i = i + 1);
 
             #endregion
 
@@ -52,8 +59,15 @@ namespace LoopsDemo
             #endregion
 
             // --- while loop
+            bool continuationCondition = true;
+            while (continuationCondition)
+            {
+                // body
+            }
 
             // --- do-while loop
+            
+            do { /* body */ } while (continuationCondition);
 
             // --- foreach
 

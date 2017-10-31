@@ -26,10 +26,13 @@ namespace ConditionalDemo
             bool condition1 = true, 
                  condition2 = false;
             if (condition1)
+            {
                 if (condition2)
                     Console.WriteLine("Do smth");
-                else
-                    Console.WriteLine("Do smth else");
+                Console.WriteLine("and another operator");
+            }
+            else
+                Console.WriteLine("Do smth else");
 
             #endregion
 
@@ -52,7 +55,7 @@ namespace ConditionalDemo
             #region Ternary statement vs conditional statement
 
             int baseValue = 11;
-            int derivedValue = (baseValue > 0) ? baseValue * 2 : -baseValue;
+            int derivedValue = (baseValue > 0) ? baseValue * 2 :  -baseValue;
 
             int anotherValue;
             if (baseValue > 0)
