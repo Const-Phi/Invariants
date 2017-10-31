@@ -32,8 +32,8 @@ namespace LoopsDemo
             #region Strange for-loop demo
 
             int total = 0;
-            for (int i = 0; i < n; i++)
-                total += i * (i + 1);
+            for (int z = 0; z < n; z++)
+                total += z * (z + 1);
 
             #endregion
 

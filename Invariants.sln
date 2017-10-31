@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalDemo", "Conditio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsDemo", "LoopsDemo\LoopsDemo.csproj", "{141FAED9-7620-416E-9F98-2ED170DC5BE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputOutputDemo", "InputOutputDemo\InputOutputDemo.csproj", "{04EC43DD-9EA9-44B6-A9B5-270814A3B780}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{141FAED9-7620-416E-9F98-2ED170DC5BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{141FAED9-7620-416E-9F98-2ED170DC5BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{141FAED9-7620-416E-9F98-2ED170DC5BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04EC43DD-9EA9-44B6-A9B5-270814A3B780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04EC43DD-9EA9-44B6-A9B5-270814A3B780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04EC43DD-9EA9-44B6-A9B5-270814A3B780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04EC43DD-9EA9-44B6-A9B5-270814A3B780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
