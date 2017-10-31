@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionStatementDemo", "ConditionStatementDemo\ConditionStatementDemo.csproj", "{9FF57FE2-D879-4092-8B9F-3A7E7316AB4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalDemo", "ConditionStatementDemo\ConditionalDemo.csproj", "{9FF57FE2-D879-4092-8B9F-3A7E7316AB4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
