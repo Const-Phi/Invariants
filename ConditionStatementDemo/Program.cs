@@ -8,8 +8,18 @@ namespace ConditionStatementDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            bool condition = true;
+            if (condition)
+            {
+                // then
+                Console.WriteLine("Condition is true");
+            }
+            else
+            {
+                Console.WriteLine("Condition is false");
+            }
         }
     }
 }
