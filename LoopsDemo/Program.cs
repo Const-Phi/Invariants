@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LoopsDemo
 {
@@ -10,6 +6,8 @@ namespace LoopsDemo
     {
         static void Main()
         {
+            // --- for loop
+
             #region Dummy for-loop demo
 
             // let a sum is 1 + 2 + 3 + ... + n where n = 10;
@@ -52,6 +50,13 @@ namespace LoopsDemo
             for (int index1 = 0, index2 = n; index1 < n && index2 > m; index1++, index2--) ; // Alarm! It's empty statement!
 
             #endregion
+
+            // --- while loop
+
+            // --- do-while loop
+
+            // --- foreach
+
         }
     }
 }
